@@ -2,6 +2,7 @@
   "name": "gdg-lviv-graphql-appsync-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://vladholubiev.com/gdg-lviv-appsync-demo",
   "dependencies": {
     "aws-appsync": "^1.1.1",
     "aws-appsync-react": "^1.0.16",
