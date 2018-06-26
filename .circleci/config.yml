@@ -43,7 +43,7 @@ jobs:
       - run: |
           cd build/
           rm ./service-worker.js
-          aws s3 sync out/ s3://gdg-lviv-appsync-demo --acl public-read --cache-control "no-cache" ./*
+          aws s3 sync . s3://gdg-lviv-appsync-demo --acl public-read --cache-control "no-cache"
 
 workflows:
   version: 2
